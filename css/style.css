@@ -140,6 +140,10 @@ body {
     margin-top: 300px;
 }
 
+.main__images {
+    width: 50%;
+}
+
 
 .charts1 {
     display: flex;
@@ -182,4 +186,28 @@ body {
 
 .charts2 {
     display: flex;
+    position: relative;
+}
+
+.charts-2 {
+    margin-right: 10px;
+    transform: translateX(-10%);
+}
+
+.charts-3 {
+    position: absolute;
+    right: -2%;   
+    top: -20%; 
+    margin-left: -50px;
+    height: 300px;
+}
+
+.charts3 {
+
+}
+
+.card2 {
+    transform: translateX(-8%);   
+    margin-top: -30px; 
+    width: 110%;
 }
