@@ -27,6 +27,17 @@ body {
     width: 1140px;
 }
 
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
 .nav-bar .container {
     background-color: var(--bg-color);
     padding: 40px 60px;
@@ -147,6 +158,10 @@ body {
     width: 50%;
 }
 
+.charts {
+    background-image: url(../img/blur-bg.png);
+    background-repeat: no-repeat;
+}
 
 .charts1 {
     display: flex;
@@ -229,4 +244,129 @@ body {
 .main__content__text {
     color: rgba(0,0,0,0.6);
     line-height: 1.5;
+}
+
+.boxes .container {
+    padding: 100px 0;
+}
+
+.boxes-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes-item {
+    width: 30%;
+    padding: 50px 40px;
+    border-radius: 10px;
+}
+
+.box1 {
+    background-color: #FFF7ED;
+}
+
+.box2 {
+    background-color: #F2F3FF;
+}
+
+.box3 {
+    background-color: #FFF0F3;
+}
+
+.boxes__image {
+    margin-left: 30px;
+}
+
+.boxes__title {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.boxes__text {
+    font-size: 17px;
+    text-align: center;
+}
+
+.mobile .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    padding: 0 50px;
+    padding-top: 100px;
+    border-radius: 30px;
+    margin-bottom: 80px;
+    transition: background .3s;
+}
+
+.mobile .container:hover {
+    background-image: linear-gradient(to left, rgba(0,0,0,0.2), rgba(0,0,0,0.1));
+}
+
+.mobile__image {
+    width: 50%;
+}
+
+.mobile-app__image {
+    width: 100%;
+}
+
+.mobile__content__title {
+    font-size: 55px;
+    color: white;
+}
+
+.mobile__link__section {
+    margin-top: 30px;
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    transition: background .3s;
+}
+
+.mobile__content__link {
+    color: var(--bg-color);
+    display: flex;
+    padding: 20px 30px;
+}
+
+.mobile__link__section:hover {
+    background-color: var(--hover);
+}
+
+.map .container {
+    padding: 200px 0;
+}
+
+.client__content {
+    width: 40%;
+}
+
+.client__content__link {
+    color: var(--bg-color);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.client__content__title {
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.left, .right {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid var(--bg-color);
+    margin-bottom: 50px;    
+}
+
+.left:hover, .right:hover {
+    background-color: var(--bg-color);
+    color: white;
 }
