@@ -138,6 +138,9 @@ body {
 
 .main .container {
     margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main__images {
@@ -202,12 +205,28 @@ body {
     height: 300px;
 }
 
-.charts3 {
-
-}
-
 .card2 {
     transform: translateX(-8%);   
     margin-top: -30px; 
     width: 110%;
+}
+
+.main__content {
+    width: 45%;
+}
+
+.main__content__link {
+    color: var(--bg-color);
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+
+.main__content__title {
+    font-size: 55px;
+    margin: 30px 0;
+}
+
+.main__content__text {
+    color: rgba(0,0,0,0.6);
+    line-height: 1.5;
 }
