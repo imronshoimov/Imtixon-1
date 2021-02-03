@@ -339,6 +339,12 @@ body {
     padding: 200px 0;
 }
 
+.client .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .client__content {
     width: 40%;
 }
@@ -370,3 +376,48 @@ body {
     background-color: var(--bg-color);
     color: white;
 }
+
+.client-box {
+    display: flex;
+    align-items: center;
+}
+
+.client__image {
+    width: 100px;
+    height: 100px;
+    background-color: #FB9090;
+    border-radius: 50%;
+}
+
+.client__name {
+    width: 50%;
+}
+
+.client-bigbox {
+    background-color:  #DCDBFF;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.client-box {
+    background: linear-gradient(270deg, #FFFFFF 0%, #ECEBFA 98.36%);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.client__name__text__title {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.client__name__text__link {
+    color: var(--bg-color);
+    margin-left: 20px;
+}
+
+.client__name__text {
+    font-size: 19px;   
+    padding: 30px; 
+}
+
+
