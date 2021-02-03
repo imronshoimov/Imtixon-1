@@ -761,6 +761,15 @@ label .textarea-img {
         width: 540px;
     }
 
+    .nav-bar .container {
+
+    }
+
+    .nav-sesction {
+        flex-direction: column;
+        font-size: 30px;
+    }
+
     .main .container {
         margin-left: 500px;
     }
@@ -792,7 +801,26 @@ label .textarea-img {
         max-width: 500px;
     }
 
-    .main__n
+    .mobile__image {
+        display: none;
+    }
+
+    .mobile__content {
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 500px;
+    }
+
+    .mobile__link__section {
+        width: 400px;
+    }
+
+    .footer__contact-section {
+        max-width: 1000px;
+        font-size: 30px;
+    }
+
 }
 
 
