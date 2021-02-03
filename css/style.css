@@ -472,7 +472,7 @@ body {
     background-image: url(../img/footer-bg-image.png);
     background-repeat: no-repeat;
     width: 1300px;
-    height: 1400px;
+    height: 1300px;
 }
 
 .footer__contact-section {
@@ -583,6 +583,82 @@ label .textarea-img {
     margin-left: 20px;
     color: rgba(0,0,0,0.5);
 }
+
+.footer__subscribe__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.footer__subscribe__title {
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.subscribe-form {
+    background-color: #6E6BFF;
+    width: 35%;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe__input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.subscribe__input::placeholder {
+    color: white;
+    font-size: 17px;
+}
+
+.subscribe__button {
+    font-size: 17px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--bg-color);
+    background-color: white;
+}
+
+.footer__section {
+    margin: 0 150px;
+    margin-top: 100px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.footer__section__list {
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: white;
+}
+
+.link-list {
+    display: flex;
+}
+
+.link-item {
+    padding: 0 5px;
+    margin: 0 5px;
+    transition: transform .3s;
+}
+
+.web-link .link-image:hover {
+    transform: translateX(3px);
+}
+
 
 
 
