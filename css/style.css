@@ -471,21 +471,118 @@ body {
 .footer .container {
     background-image: url(../img/footer-bg-image.png);
     background-repeat: no-repeat;
-    width: 1400px;
+    width: 1300px;
     height: 1400px;
 }
 
 .footer__contact-section {
     background-color: white;
-    border: 1px solid red;
+    width: 950px;
+    padding: 60px 70px;
+    margin: 0 auto;
+    background-image: url("../img/Group-bg-image.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    display: flex;
 }
 
 .contact__form {
+    width: 50%;
+}
 
+.contact__form__link {
+    color: var(--bg-color);
+    font-size: 15px;
+}
+
+.contact__form__title {
+    font-size: 55px;
+    margin-bottom: 30px;
 }
 
 .form {
     display: flex;
     flex-direction: column;
 }
+
+.form label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    padding: 15px 25px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+label input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+label input::placeholder, label textarea::placeholder {
+    font-size: 17px;
+}
+
+label select {
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    color: rgba(0,0,0,0.7);
+}
+
+.textarea {
+    display: flex;
+}
+
+label textarea {
+    outline: none;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    width: 350px;
+}
+
+label .textarea-img {
+    align-self: flex-start;
+}
+
+.form__button {
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    color: white;
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.contact__address {
+    align-self: flex-end;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.contact__address__item {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.contact__address__text {
+    margin-left: 20px;
+    color: rgba(0,0,0,0.5);
+}
+
+
 

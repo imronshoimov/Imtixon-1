@@ -236,11 +236,11 @@
                     </h1>
                     <form class="form">
                         <label>
-                            <input type="text" name="text" placeholder="Name">
+                            <input type="text" name="text" placeholder="Name" required>
                             <img src="./img/user.png" alt="user icon">
                         </label>
                         <label>
-                            <input type="email" name="email" placeholder="E-mail">
+                            <input type="email" name="email" placeholder="E-mail" required>
                             <img src="./img/Frame.png" alt="frame icon">
                         </label>
                         <label>
@@ -248,20 +248,37 @@
                                 <option value="subject">Subject</option>
                             </select>
                         </label>
-                        <label>
-                             <textarea>
-                                 Type your message
-                             </textarea>
-                            <img src="./img/message.png" alt="message icon">
+                        <label class="textarea">
+                            <textarea name="message" placeholder="Type your message" required></textarea>
+                            <img class="textarea-img" src="./img/message.png" alt="message icon">
                         </label>
                         <button class="form__button" type="submit">
                             <p class="form__button__text">Send Message</p>
-                            <img src="" alt="" class="form__button__image">
+                            <img src="./img/send-button.png" alt="button" class="form__button__image">
                         </button>
                     </form>
                 </div>
                 <div class="contact__address">
-
+                    <ul class="contact__address__link">
+                        <li class="contact__address__item">
+                            <img src="./img/phone.png" alt="address icon" class="contact__address__img">
+                            <p class="contact__address__text">
+                                +3935 34567 325
+                            </p>
+                        </li>
+                        <li class="contact__address__item">
+                            <img src="./img/union.png" alt="address icon" class="contact__address__img">
+                            <p class="contact__address__text">
+                                4074 Ebert Summit Suite <br> 375 Lake Leonardchester
+                            </p>
+                        </li>
+                        <li class="contact__address__item">
+                            <img src="./img/dog.png" alt="address icon" class="contact__address__img">
+                            <p class="contact__address__text">
+                                yourmail@gmailcom
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="footer__subscribe__section">
