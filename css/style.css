@@ -313,7 +313,7 @@ body {
     padding-top: 100px;
     border-radius: 30px;
     margin-bottom: 80px;
-    transition: background .3s;
+    transition: .3s;
 }
 
 .mobile .container:hover {
@@ -347,6 +347,10 @@ body {
     display: flex;
     padding: 20px 30px;
     text-align: center;
+}
+
+.mobile__content__link > img {
+    object-fit: contain;
 }
 
 .mobile__link__section:hover {
@@ -505,6 +509,7 @@ body {
 .form {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .form label {
@@ -521,6 +526,7 @@ label input {
     border: none;
     background-color: transparent;
     outline: none;
+    width: 100%;
 }
 
 label input::placeholder, label textarea::placeholder {
